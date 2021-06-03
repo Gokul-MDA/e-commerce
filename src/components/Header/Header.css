@@ -5,6 +5,7 @@
   background-color: #041e42;
   display: flex;
   justify-content: space-between;
+  position: sticky;
 }
 
 .header__logo {

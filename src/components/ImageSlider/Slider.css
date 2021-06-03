@@ -38,3 +38,41 @@
   color: white;
   font-size: 3rem;
 }
+
+@media screen and (max-width: 768px) {
+  .image {
+    width: 100vw;
+    height: 200px;
+  }
+
+  .backArrow {
+    position: absolute;
+    top: 23%;
+    left: 20px;
+    color: black;
+    font-size: 3rem;
+  }
+
+  .backArrow1 {
+    position: absolute;
+    top: 23%;
+    left: 23px;
+    color: white;
+    font-size: 3rem;
+  }
+
+  .forwardArrow {
+    position: absolute;
+    top: 23%;
+    right: 20px;
+    color: black;
+    font-size: 3rem;
+  }
+  .forwardArrow1 {
+    position: absolute;
+    top: 23%;
+    right: 23px;
+    color: white;
+    font-size: 3rem;
+  }
+}

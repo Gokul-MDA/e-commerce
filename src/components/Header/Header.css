@@ -8,10 +8,15 @@
   position: sticky;
 }
 
+.menuIcon {
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
 .header__logo {
   display: flex;
   align-items: center;
-  margin-left: 20px;
+  margin-left: -200px;
 }
 
 .header__logo > a {
@@ -60,4 +65,48 @@
   display: flex;
   gap: 5px;
   align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .menuIcon {
+    margin-left: 15px;
+  }
+
+  .header__logo {
+    display: none;
+    margin-left: 0;
+  }
+
+  .header__input > input {
+    width: 150px;
+    height: 32px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+    text-align: center;
+    border: none;
+  }
+
+  .header__searchButton {
+    /* border: 1px solid black; */
+    background-color: #ffc220;
+    padding: 4px;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+
+  .account {
+    display: none;
+  }
+
+  .fav {
+    display: none;
+  }
+
+  .cart {
+    margin-right: -17px;
+  }
 }

@@ -9,8 +9,8 @@ import ShoppingOutlinedCart from "@material-ui/icons/ShoppingCartOutlined";
 const Header = () => {
   return (
     <div className="header">
+      <MenuIcon className="menuIcon" />
       <div className="header__logo">
-        <MenuIcon />
         <a href="amazon.com">
           <h2>E-Commerce</h2>
         </a>
@@ -24,15 +24,15 @@ const Header = () => {
         </button>
       </div>
       <div className="header__menu">
-        <a href="#" className="header__menuItem">
-          <PersonOutlinedIcon className="header__icons" />
+        <a href="#" className="header__menuItem account">
+          <PersonOutlinedIcon className="header__icons " />
           <h4>Account</h4>
         </a>
-        <a href="#" className="header__menuItem">
-          <FavoriteBorderOutlinedIcon className="header__icons" />
+        <a href="#" className="header__menuItem fav">
+          <FavoriteBorderOutlinedIcon className="header__icons " />
           <h4>My Items</h4>
         </a>
-        <a href="#" className="header__menuItem">
+        <a href="#" className="header__menuItem  cart">
           <ShoppingOutlinedCart />
         </a>
       </div>

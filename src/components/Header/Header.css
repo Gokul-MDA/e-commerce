@@ -5,18 +5,27 @@
   background-color: #041e42;
   display: flex;
   justify-content: space-between;
+
   position: sticky;
+}
+
+.header__Container {
+  margin-top: -55px;
+  margin-left: 50px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .menuIcon {
   margin-top: 30px;
   margin-left: 20px;
+  cursor: pointer;
 }
 
 .header__logo {
   display: flex;
   align-items: center;
-  margin-left: -200px;
+  /* margin-left: -200px; */
 }
 
 .header__logo > a {
@@ -74,6 +83,10 @@
 @media screen and (max-width: 768px) {
   .menuIcon {
     margin-left: 15px;
+  }
+
+  .header__Container {
+    margin-top: -35px;
   }
 
   .header__logo {

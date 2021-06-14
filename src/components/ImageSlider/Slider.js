@@ -24,14 +24,15 @@ const Slider = ({ slides }) => {
       <ArrowForwardIosIcon onClick={nextSlide} className="forwardArrow1" />
       {SliderData.map((slide, index) => {
         return (
-          <div
+          <a
+            href="#"
             className={index === current ? "slide active" : "slide"}
             key={index}
           >
             {index === current && (
               <img src={slide.image} alt="" className="image" />
             )}
-          </div>
+          </a>
         );
       })}
     </div>

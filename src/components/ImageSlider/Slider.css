@@ -10,7 +10,7 @@
 
 .backArrow {
   position: absolute;
-  top: 35%;
+  top: 40%;
   left: 50px;
   color: black;
   font-size: 3rem;
@@ -18,23 +18,23 @@
 
 .backArrow1 {
   position: absolute;
-  top: 35%;
-  left: 56px;
+  top: 40%;
+  left: 53px;
   color: white;
   font-size: 3rem;
 }
 
 .forwardArrow {
   position: absolute;
-  top: 35%;
+  top: 40%;
   right: 50px;
   color: black;
   font-size: 3rem;
 }
 .forwardArrow1 {
   position: absolute;
-  top: 35%;
-  right: 56px;
+  top: 40%;
+  right: 53px;
   color: white;
   font-size: 3rem;
 }

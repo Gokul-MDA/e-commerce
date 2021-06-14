@@ -6,10 +6,11 @@ import PersonOutlinedIcon from "@material-ui/icons/PersonOutlined";
 import FavoriteBorderOutlinedIcon from "@material-ui/icons/FavoriteBorderOutlined";
 import ShoppingOutlinedCart from "@material-ui/icons/ShoppingCartOutlined";
 
-const Header = () => {
+const Header = ({ toggle }) => {
   return (
     <div className="header">
-      <MenuIcon className="menuIcon" />
+      <MenuIcon className="menuIcon" onClick={toggle} />
+      {/* <div className="header__Container"> */}
       <div className="header__logo">
         <a href="amazon.com">
           <h2>E-Commerce</h2>
@@ -36,6 +37,7 @@ const Header = () => {
           <ShoppingOutlinedCart />
         </a>
       </div>
+      {/* </div> */}
     </div>
   );
 };
